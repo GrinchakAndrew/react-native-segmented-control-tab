@@ -143,7 +143,7 @@ export default class TabOption extends PureComponent<Props> {
         disabled={!enabled}
         activeOpacity={activeTabOpacity}
       >
-        <View style={{ flexDirection: 'row' }}>
+        <View style={{ flexDirection: 'row', justifyContent : 'center' }}>
           <Text
             style={[
               styles.tabTextStyle,
